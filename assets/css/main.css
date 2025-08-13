@@ -3778,3 +3778,38 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Override to remove rectangle around navigation links on desktop */
+@media (min-width: 1200px) {
+  .navmenu a,
+  .navmenu a:focus {
+    border: none !important;
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 18px 15px; /* keep padding for spacing if you want */
+  }
+}
+
+/* Remove rectangle around navigation links on mobile */
+@media (max-width: 1199px) {
+  .navmenu a,
+  .navmenu a:focus {
+    border: none !important;
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 10px 20px; /* keep existing mobile padding */
+  }
+}
+
+/* Remove rectangle around logo heading */
+.header .logo h1 {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: var(--heading-color); /* keep your heading color */
+}
