@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Blog</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+  }
+  .main-content {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+  }
+  article.post {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  article.post h2 {
+    margin-top: 0;
+  }
+  article.post .date {
+    color: gray;
+    font-size: 0.9em;
+  }
+  .sidebar {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+  }
+  .sidebar h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  footer.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">My Blog</div>
+
+<div class="container">
+  <div class="main-content">
+    <article class="post">
+      <h2>First Blog Post Title</h2>
+      <div class="date">Published August 27, 2025</div>
+      <p>This is an excerpt or summary of the first blog post content...</p>
+      <a href="#">Read more</a>
+    </article>
+
+    <article class="post">
+      <h2>Second Blog Post Title</h2>
+      <div class="date">Published August 25, 2025</div>
+      <p>Here's a preview snippet of the second blog post content...</p>
+      <a href="#">Read more</a>
+    </article>
+  </div>
+
+  <aside class="sidebar">
+    <h3>About Me</h3>
+    <p>Short bio or info about the blog/author.</p>
+
+    <h3>Recent Posts</h3>
+    <ul>
+      <li><a href="#">First Blog Post Title</a></li>
+      <li><a href="#">Second Blog Post Title</a></li>
+    </ul>
+
+    <h3>Follow Me</h3>
+    <p>Social media links or widgets here.</p>
+  </aside>
+</div>
+
+<footer class="footer">
+  © 2025 My Blog. All rights reserved.
+</footer>
+
+</body>
+</html>
+
