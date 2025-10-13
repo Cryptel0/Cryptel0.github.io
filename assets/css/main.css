@@ -17,6 +17,23 @@
   --nav-font: "Raleway",  sans-serif;
 }
 
+/* Chatbot color overrides - White theme */
+:root {
+  --chat--color-primary: #ffffff;
+  --chat--color-primary-shade-50: #f0f0f0;
+  --chat--color-primary-shade-100: #d9d9d9;
+  --chat--color-secondary: #ffffff;
+  --chat--color-secondary-shade-50: #e6e6e6;
+  --chat--color-white: #ffffff;
+  --chat--color-light: #fafafa;
+  --chat--color-light-shade-50: #f0f0f0;
+  --chat--color-light-shade-100: #dcdcdc;
+  --chat--color-medium: #bbbbbb;
+  --chat--color-dark: #333333;
+  --chat--color-disabled: #999999;
+  --chat--color-typing: #666666;
+}
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* white background for the entire website */
